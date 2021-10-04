@@ -54,7 +54,7 @@ async def start_(client: Client, message: Message):
                         "قناه السورس", url=f"https://t.me/{UPDATES_CHANNEL}")               
                  ],[
                     InlineKeyboardButton(
-                        "╞. 𝐒𝐨𝐮𝐫𝐜𝐞 𝐀𝐥𝐟𝐚 .╡", url="https://t.me/so_alfaa"
+                        "╞. 𝘚𝘖𝘜𝘙𝘊𝘌 𝘑𝘌𝘗𝘛𝘏𝘖𝘕 .╡", url="https://t.me/JepThon"
                     )
                 ]
             ]
@@ -84,7 +84,7 @@ async def start(client: Client, message: Message):
         )
     )
 
-@Client.on_message(command(["help", f"help@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["الاوامر", f"help@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_text(
         f"""<b> مرحبا {message.from_user.mention()}, يرجى النقر فوق الزر أدناه لرؤية رسالة المساعدة التي يمكنك قراءتها لاستخدام هذا الروبوت</b>""",
@@ -191,7 +191,7 @@ async def help_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "╞. 𝐒𝐨𝐮𝐫𝐜𝐞 𝐀𝐥𝐟𝐚 .╡", url=f"https://t.me/so_alfaa"
+                        "╞. 𝘚𝘖𝘜𝘙𝘊𝘌 𝘑𝘌𝘗𝘛𝘏𝘖𝘕 .╡", url=f"https://t.me/JepThon"
                     )
                 ]
             ]
@@ -199,7 +199,7 @@ async def help_(client: Client, message: Message):
     )
 
 
-@Client.on_message(command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
+@Client.on_message(command(["بنك", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
 async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("ᴘɪɴɢɪɴɢ...")
@@ -210,7 +210,7 @@ async def ping_pong(client: Client, message: Message):
     )
 
 
-@Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
+@Client.on_message(command(["فحص", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
 @authorized_users_only
 async def get_uptime(client: Client, message: Message):
     current_time = datetime.utcnow()
