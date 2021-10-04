@@ -376,7 +376,7 @@ async def m_cb(b, cb):
                 
                 ],
                 [       
-                    InlineKeyboardButton("اخفاء القائمه.💕", "cls")
+                    InlineKeyboardButton("اخفاء القائمه.🩸", "cls")
                 ]        
             ]
         )
@@ -508,10 +508,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("عرض القائمه.. 💕", callback_data="menu"),
-                    InlineKeyboardButton("اخفاء القائمه.. 💕", callback_data="cls"),
+                    InlineKeyboardButton("عرض القائمه.. 🩸", callback_data="menu"),
+                    InlineKeyboardButton("اخفاء القائمه.. 🩸", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("💕 قناه السورس", url=f"https://t.me/so_alfaa")
+                    InlineKeyboardButton("🧸 قناه السورس", url=f"https://t.me/JepThon")
                 ],
             ]
         )
@@ -555,10 +555,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("عرض القائمه.. 💕", callback_data="menu"),
-                    InlineKeyboardButton("اخفاء القائمه.. 💕", callback_data="cls"),
+                    InlineKeyboardButton("عرض القائمه.. 🩸", callback_data="menu"),
+                    InlineKeyboardButton("اخفاء القائمه.. 🩸", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("💕قناه السورس", url=f"https://t.me/so_alfaa")
+                    InlineKeyboardButton("🧸 قناه السورس", url=f"https://t.me/JepThon")
                 ],
             ]
         )
@@ -590,7 +590,7 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("انقر لتشغيل الاغنيه الاولي.. ", callback_data=f'plll 0|{query}|{user_id}'),
+                        InlineKeyboardButton("انقر لتشغيل الاغنيه الاولى.. ", callback_data=f'plll 0|{query}|{user_id}'),
                     ],
                     [
                         InlineKeyboardButton("انقر لتشغيل الاغنيه الثانيه.. ", callback_data=f'plll 2|{query}|{user_id}'),
@@ -598,7 +598,7 @@ async def play(_, message: Message):
                     [
                         InlineKeyboardButton("انقر لتشغيل الاغنيه الثالثه.. ", callback_data=f'plll 3|{query}|{user_id}'),
                     ],
-                    [InlineKeyboardButton(text="اخفاء القائمه 💕", callback_data="cls")],
+                    [InlineKeyboardButton(text="اخفاء القائمه 🩸", callback_data="cls")],
                 ]
             )
             await message.reply_photo(
@@ -636,10 +636,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("عرض القائمه..💕", callback_data="menu"),
-                    InlineKeyboardButton("اخفاء القائمه..💕", callback_data="cls"),
+                    InlineKeyboardButton("عرض القائمه..🩸", callback_data="menu"),
+                    InlineKeyboardButton("اخفاء القائمه..🩸", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("💕 قناه السورس", url=f"https://t.me/so_alfaa") 
+                    InlineKeyboardButton("🧸 قناه السورس", url=f"https://t.me/JepThon") 
                 ],
             ]
             )
@@ -700,7 +700,7 @@ async def lol_cb(b, cb):
     if cb.from_user.id != useer_id:
         await cb.answer("أنتم لستم من طلب هذه الأغنية!", show_alert=True)
         return
-    #await cb.message.edit("🔁 **processing...**")
+    #await cb.message.edit("🔁 **تجهيز...**")
     x=int(x)
     try:
         useer_name = cb.message.reply_to_message.from_user.first_name
@@ -735,10 +735,10 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("عرض القائمه..💕", callback_data="menu"),
-                    InlineKeyboardButton("اخفاء القائمه..💕", callback_data="cls"),
+                    InlineKeyboardButton("عرض القائمه..🩸", callback_data="menu"),
+                    InlineKeyboardButton("اخفاء القائمه..🩸", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("💕 قناه السورس", url=f"https://t.me/so_alfaa")
+                    InlineKeyboardButton("🧸 قناه السورس", url=f"https://t.me/JepThon")
                 ],
             ]
     )
