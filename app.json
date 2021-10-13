@@ -67,7 +67,7 @@
             "value": "ENABLE"
         },
         "UPDATES_CHANNEL": {
-            "description": "هنا حط قناه السورس مالتك",
+            "description": "هنا حط معرف قناتك بدون @",
             "required": false,
             "value": "Jepthon"
         },
