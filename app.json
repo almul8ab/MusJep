@@ -3,7 +3,7 @@
     "logo": "https://telegra.ph/file/63a2c0f4985d086d3e7c6.jpg",
     "description": " بوت تشغيل الاغاني في المكالمات من قبل سورس جيبثون @jepthon V2",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "",
+    "repository": "https://github.com/almul8ab/MusJep",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
