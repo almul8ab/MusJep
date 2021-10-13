@@ -1,5 +1,5 @@
 {
-    "name": "MADISON",
+    "name": "Jepthon",
     "logo": "https://telegra.ph/file/63a2c0f4985d086d3e7c6.jpg",
     "description": " بوت تشغيل الاغاني في المكالمات من قبل سورس جيبثون @jepthon V2",
     "keywords": ["music", "voice chat", "telegram"],
@@ -42,7 +42,7 @@
         "OWNER_NAME": {
             "description": "حط اليوز مالتك بدون علامه @",
             "required": false,
-            "value": "AAHMEED11"
+            "value": ""
         },
         "API_ID": {
             "description": "حــط App ID from my.telegram.org/apps",
