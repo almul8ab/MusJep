@@ -1,9 +1,9 @@
 {
     "name": "MADISON",
-    "logo": "https://telegra.ph/file/ef115938f65e6dadc1142.jpg",
-    "description": "بوت تشغيل الاغاني في المكالمات V2 من قبل @lMl10l",
+    "logo": "https://telegra.ph/file/63a2c0f4985d086d3e7c6.jpg",
+    "description": " بوت تشغيل الاغاني في المكالمات من قبل سورس جيبثون @jepthon V2",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/lMl31l/MusJep",
+    "repository": "",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -22,12 +22,12 @@
         "BOT_USERNAME": {
             "description": "يوزر نيــم البوت بدون -> @",
             "required": true,
-            "value": "MUS_ALF_BOT"
+            "value": ""
         },
         "ASSISTANT_NAME": {
             "description": "يوزر نيــم بوتك المساعد بدون ->  @",
             "required": true,
-            "value": "MUS_ALF_BOT"
+            "value": ""
         },
         "BG_IMAGE": {
             "description": "هنا هتحط صوره الخلفيه ان وجدت",
